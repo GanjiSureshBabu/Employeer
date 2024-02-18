@@ -11,6 +11,8 @@ public class AccountServiceImpl implements AccountService {
 
     @Override
     public LoginPageResponse authenticateLoginDetails(LoginVM request) throws Exception {
-        return null;
+       LoginPageResponse response = new LoginPageResponse();
+        return response;
+
     }
 }
